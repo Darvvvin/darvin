@@ -1,0 +1,150 @@
+body, html {
+			height: 100%;
+			margin: 0;
+			font-family: Futura;
+			color: #000000;
+		}
+/*parts*/
+.bgimg-3 {
+	background-color: none;
+	min-height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.bgimg-1 {
+	background-color: rgba(0,0,0,0.5);
+	background-image: url("https://i.imgur.com/Zh4GLyz.jpg");
+	min-height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.bgimg-2 {
+	background-color: white;
+	min-height: 100%;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+/*end parts*/
+.caption {
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 128px;
+	color: white;
+}
+.eport {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-size: 34px;
+	letter-spacing: 10px;
+	color: white;
+
+}
+.caption span.border {
+	background-color: #000;
+	color: #fff;
+	padding: 18px;
+	font-size: 72px;
+	letter-spacing: 10px;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+/*BUTTON STUFF*/
+.button { 
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position: absolute;
+  top: 65%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-family: Axis;
+  letter-spacing: 5px;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.overtime {
+	position: absolute;
+	left: 0;
+	top: 10%;
+	width: 100%;
+	text-align: center;
+	font-size: 72pt;
+	color: black;
+	font-style: bold;
+}
+/*img*/
+.dumbresearchpng img{
+	position: absolute;
+	background-size: cover;
+	transform: translate(-50%);
+	width: 60%;
+}
+.scroll {
+	font-family: Vision;
+	position: absolute;
+	left: 0;
+	top: 200%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 32px;
+	color: white;
+}
+/*video*/
+#myVideo {
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+}
+.overlay2 {
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	color: #f1f1f1;
+	width: 100%;
+	height: 100%;
+}
